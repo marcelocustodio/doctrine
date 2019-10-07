@@ -1,0 +1,30 @@
+{
+    "name": "appliedmathacademy/ephpectiveio",
+    "description": "Micro PHP MVC Framework",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Marcelo Monteiro",
+            "email": "contact@AppliedMath.Academy"
+        }
+    ],
+    
+    "require": {
+        "php": ">=5.4",
+        "doctrine/orm": "^2.6.3",
+        "cocur/slugify": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Controller\\": "app/controller/",
+            "App\\Model\\": "app/model/",
+            "App\\View\\": "app/view/",
+            "App\\Core\\": "app/core/",
+            "App\\Core\\MVC\\Controller\\": "app/core/mvc/controller/",
+            "App\\Core\\MVC\\Model\\": "app/core/mvc/model/",
+            "Tests\\": "ephpective/tests/"
+        }
+    }
+}
